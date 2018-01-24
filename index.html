@@ -23,17 +23,8 @@
     $(".target:nth-child(2)").addClass("animated bounce");
 	
   });
-  
-  $( "#target5" ).click(function() {
-  $( "#target1" ).css("color", "blue");
-  $("#target1").parent().css("background-color", "orange");
-});
 
-  #("target3") {
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
+
 </script>
 </head> 
 <body>
@@ -58,6 +49,12 @@
         <button class="btn btn-default target" id="target5">#target5</button>
         <button class="btn btn-default target" id="target6">#target6</button>
       </div>
+	   <script>
+  $( "#target5" ).click(function() {
+  $( "#target1" ).css("color", "blue");
+  $("#target1").parent().css("background-color", "orange");
+});
+</script>
     </div>
   </div>
 </div>
