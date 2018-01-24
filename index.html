@@ -37,7 +37,7 @@
       <h4>#left-well</h4>
       <div class="well" id="left-well">
 	  
-        <button class="btn btn-default target" id="target1" value="#target1"></button>
+        <button class="btn btn-default target" id="target1">#target1</button>
         <button class="btn btn-default target" id="target2">#target2</button>
         <button class="btn btn-default target" id="target3">#target3</button>
       </div>
@@ -53,9 +53,8 @@
   $( "#target5" ).click(function() {
   $( "#target1" ).css("color", "blue");
   $("#target1").parent().css("background-color", "orange");
-  $( "#target3" ).css("text", "Przycisk #target5 został wcisnięty");
-  $( "#target1" ).css("text", "Przycisk #target5 został wcisnięty");
   $( "#target6" ).text("Przycisk #target5 został wcisnięty");
+  $( "#right-well").addClass("animated shaking");
 });
 </script>
     </div>
